@@ -1,0 +1,33 @@
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.main-content__title,
+.main-content__buttons {
+  text-align: center;
+}
+
+.main-content__buttons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin: 0.5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  border-radius: 10%;
+  width: 70vw;
+  height: 60vh;
+}
